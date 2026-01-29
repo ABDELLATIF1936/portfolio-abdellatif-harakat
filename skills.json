@@ -1,0 +1,13 @@
+
+[
+  { "id": "s1", "name": "Cisco Routing & Switching", "category": "Network", "level": 5 },
+  { "id": "s2", "name": "Linux Admin (RHEL/Ubuntu)", "category": "Systems", "level": 4 },
+  { "id": "s3", "name": "Firewalls & IDS/IPS", "category": "Security", "level": 4 },
+  { "id": "s4", "name": "Python / Bash Scripting", "category": "Dev", "level": 4 },
+  { "id": "s5", "name": "AWS / Azure Cloud", "category": "Systems", "level": 3 },
+  { "id": "s6", "name": "Docker & Kubernetes", "category": "Systems", "level": 3 },
+  { "id": "s7", "name": "Wireshark / Packet Analysis", "category": "Network", "level": 5 },
+  { "id": "s8", "name": "SIEM / ELK Stack", "category": "Security", "level": 3 },
+  { "id": "s9", "name": "Terraform / IaC", "category": "Dev", "level": 3 },
+  { "id": "s10", "name": "Active Directory", "category": "Systems", "level": 4 }
+]

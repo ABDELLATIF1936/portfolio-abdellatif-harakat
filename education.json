@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": "edu1",
+    "degree": "Master en Réseaux et Systèmes Informatiques",
+    "institution": "Université de Technologie de l'Innovation",
+    "period": "2025 - Présent",
+    "courses": [
+      "Architecture Réseau Avancée",
+      "Systèmes Distribués",
+      "Optimisation des Infrastructures Cloud",
+      "Protocoles Cryptographiques"
+    ]
+  },
+  {
+    "id": "edu2",
+    "degree": "Licence en Informatique",
+    "institution": "École Nationale d'Ingénierie",
+    "period": "2020 - 2024",
+    "courses": [
+      "Systèmes d'Exploitation",
+      "Réseaux TCP/IP",
+      "Gestion de Bases de Données",
+      "Structures de Données & Algorithmes"
+    ]
+  }
+]

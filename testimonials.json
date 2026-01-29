@@ -1,0 +1,33 @@
+
+[
+  {
+    "id": "t1",
+    "name": "Dr. Sarah Chen",
+    "role": "Professor",
+    "content": "Alex a fait preuve d'une profondeur exceptionnelle en architecture réseau. Son projet final sur le SDN était l'une des implémentations les plus robustes que j'ai vues au niveau Master cette année.",
+    "institution": "Tech University",
+    "projectContext": "Cours de Réseaux Avancés"
+  },
+  {
+    "id": "t2",
+    "name": "Marc-Antoine Lefebvre",
+    "role": "Project Lead",
+    "content": "Travailler avec Alex sur le projet Cloud Hybride a été fluide. Sa capacité à automatiser des configurations Cisco complexes avec Terraform a fait gagner des dizaines d'heures à notre équipe.",
+    "projectContext": "Atelier de Migration Cloud"
+  },
+  {
+    "id": "t3",
+    "name": "Julien Durand",
+    "role": "Student",
+    "content": "Un excellent coéquipier qui prend toujours le temps d'expliquer l'analyse complexe des paquets. Les compétences d'Alex en documentation sont de premier ordre, ce qui a permis à nos rapports de groupe de se démarquer.",
+    "projectContext": "Projet d'Audit de Sécurité"
+  },
+  {
+    "id": "t4",
+    "name": "Prof. Robert Wilson",
+    "role": "Professor",
+    "content": "Rigoureux, méthodique et techniquement doué. La contribution d'Alex à nos recherches sur la sécurité des systèmes distribués a été inestimable.",
+    "institution": "École Nationale d'Ingénierie",
+    "projectContext": "Assistant de Recherche"
+  }
+]

@@ -1,0 +1,27 @@
+
+[
+  {
+    "id": "p1",
+    "title": "Déploiement Réseau Cloud Hybride",
+    "description": "Conception et mise en œuvre d'un tunnel VPN sécurisé entre un datacenter local et un VPC AWS, utilisant BGP pour le routage dynamique et le basculement automatisé.",
+    "technologies": ["AWS", "Cisco CSR1000v", "BGP", "Terraform"],
+    "images": [
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800"
+    ],
+    "githubUrl": "https://github.com/alexrivera/hybrid-cloud-net",
+    "liveUrl": "https://demo.example.com/network-viz"
+  },
+  {
+    "id": "p2",
+    "title": "Dashboard Système de Détection d'Intrusion",
+    "description": "Un tableau de bord de surveillance en temps réel pour les journaux IDS Snort, comprenant des alertes visuelles et des règles de blocage automatisées avec IPtables.",
+    "technologies": ["Python", "Flask", "Snort", "MySQL"],
+    "images": [
+      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800"
+    ],
+    "githubUrl": "https://github.com/alexrivera/ids-monitor"
+  }
+]

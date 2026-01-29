@@ -1,0 +1,14 @@
+
+[
+  {
+    "id": "exp1",
+    "role": "Stagiaire Ingénieur Réseau",
+    "company": "Global Connect Solutions",
+    "period": "Été 2023",
+    "description": [
+      "Contribution à la migration de l'infrastructure héritée IPv4 vers une pile double IPv4/IPv6.",
+      "Surveillance des performances réseau via Zabbix et Grafana.",
+      "Configuration et déploiement de plus de 50 commutateurs de classe entreprise."
+    ]
+  }
+]

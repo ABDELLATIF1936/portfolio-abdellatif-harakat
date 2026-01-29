@@ -1,0 +1,8 @@
+{
+  "name": "NetSys Portfolio - Présentation Étudiante Professionnelle",
+  "description": "Un portfolio moderne et réactif pour les étudiants en Réseaux et Systèmes Informatiques, présentant des projets, des compétences et un assistant de carrière propulsé par l'IA.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
