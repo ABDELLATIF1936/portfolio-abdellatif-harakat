@@ -7,7 +7,6 @@ import SkillsSection from './components/SkillsSection';
 import ProjectsSection from './components/ProjectsSection';
 import ExperienceSection from './components/ExperienceSection';
 import TestimonialsSection from './components/TestimonialsSection';
-import CertificationsSection from './components/CertificationsSection';
 import ContactForm from './components/ContactForm';
 import GeminiAssistant from './components/GeminiAssistant';
 import Reveal from './components/Reveal';
@@ -31,16 +30,14 @@ const App: React.FC = () => {
           testimonialsRes, 
           profileRes, 
           educationRes, 
-          experienceRes,
-          certificationsRes
-        ] = await Promise.all([
-          fetch('./projects.json'),
-          fetch('./skills.json'),
-          fetch('./testimonials.json'),
-          fetch('./profile.json'),
-          fetch('./education.json'),
-          fetch('./experience.json'),
-          fetch('./certifications.json')
+          experienceRes
+                ] = await Promise.all([
+          fetch('/projects.json'),
+          fetch('/skills.json'),
+          fetch('/testimonials.json'),
+          fetch('/profile.json'),
+          fetch('/education.json'),
+          fetch('/experience.json')
         ]);
 
         const fetchedData: Partial<PortfolioData> = {};
@@ -50,7 +47,6 @@ const App: React.FC = () => {
         if (testimonialsRes.ok) fetchedData.testimonials = await testimonialsRes.json();
         if (educationRes.ok) fetchedData.education = await educationRes.json();
         if (experienceRes.ok) fetchedData.experience = await experienceRes.json();
-        if (certificationsRes.ok) fetchedData.certifications = await certificationsRes.json();
         
         if (profileRes.ok) {
           const profile = await profileRes.json();
