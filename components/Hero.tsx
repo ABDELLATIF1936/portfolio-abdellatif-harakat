@@ -66,7 +66,7 @@ const Hero: React.FC<HeroProps> = ({ name, role, about, github, linkedin }) => {
                                           
               <div className="relative aspect-square glass rounded-[2.5rem] overflow-hidden border border-white/10 p-3">
                 <img
-                  src="./profil.png"
+                  src="/profil.png"
                   alt={name}
                   className="w-full h-full object-cover rounded-2xl grayscale hover:grayscale-0 transition-all duration-700 hover:scale-105"
                 />
