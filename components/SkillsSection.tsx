@@ -120,13 +120,13 @@ const SkillsSection: React.FC<SkillsSectionProps> = ({ skills }) => {
         <div className="text-center mb-32">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 mb-6">
             <div className="w-2 h-2 bg-blue-500 rounded-full animate-ping" />
-            <span className="text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]">Core Capabilities</span>
+            <span className="text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]"></span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black mb-8 text-white tracking-tighter uppercase leading-none">
             Technical<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500 text-glow">Stack</span>
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto font-medium">
-            Ingénierie de précision appliquée aux infrastructures réseaux et à la sécurité des systèmes d'information.
+            Des technologies combinant développement logiciel, systèmes informatiques et réseaux pour concevoir des solutions complètes, fiables et évolutives.
           </p>
         </div>
       </Reveal>

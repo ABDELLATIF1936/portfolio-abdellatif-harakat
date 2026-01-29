@@ -87,16 +87,6 @@ const App: React.FC = () => {
             <EducationSection education={data.education} />
           </Reveal>
         </div>
-
-        {/* Render CertificationsSection if data is available */}
-        {data.certifications && data.certifications.length > 0 && (
-          <div id="certifications" className="container mx-auto px-6 py-32 border-b border-white/5">
-            <Reveal>
-              <CertificationsSection certifications={data.certifications} />
-            </Reveal>
-          </div>
-        )}
-
         <div id="skills" className="py-32">
           <div className="container mx-auto px-6">
             <Reveal>

@@ -69,17 +69,17 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
           <div className="max-w-xl text-left">
             <div className="inline-block px-4 py-1.5 mb-6 glass rounded-full border border-blue-500/20">
-              <span className="text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]">Showcase</span>
+              <span className="text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]"></span>
             </div>
             <h2 className="text-5xl md:text-7xl font-black mb-6 text-white tracking-tighter uppercase leading-none">
               Projets<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500 text-glow">Majeurs</span>
             </h2>
             <p className="text-slate-500 text-lg max-w-md">
-              Une immersion dans mes travaux techniques sur l'automatisation, le cloud et la sécurité.
+              Une immersion dans mes projets techniques mêlant développement logiciel, systèmes informatiques, cloud et bonnes pratiques de sécurité.
             </p>
           </div>
           <div className="flex gap-4">
-            <a href="#" className="group flex items-center space-x-3 glass px-8 py-4 rounded-full text-white font-bold text-sm hover:bg-white/10 transition-all border border-white/5">
+            <a href="https://github.com/ABDELLATIF1936" className="group flex items-center space-x-3 glass px-8 py-4 rounded-full text-white font-bold text-sm hover:bg-white/10 transition-all border border-white/5">
               <span>EXPLORER GITHUB</span>
               <svg className="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>

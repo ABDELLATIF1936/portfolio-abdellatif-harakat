@@ -70,7 +70,7 @@ const EducationSection: React.FC<EducationSectionProps> = ({ education }) => {
           <h2 className="text-5xl font-black mb-6 text-white tracking-tighter uppercase">Parcours Académique</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-indigo-600 mx-auto mb-8" />
           <p className="text-slate-500 text-lg max-w-2xl mx-auto">
-            Une fondation solide en ingénierie des systèmes et architectures réseaux distribuées.
+            Une formation solide en informatique, spécialisée en ingénierie des systèmes, réseaux et architectures distribuées, combinant théorie académique et projets pratiques.
           </p>
         </div>
       </Reveal>

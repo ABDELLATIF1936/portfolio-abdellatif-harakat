@@ -1,13 +1,17 @@
-
 [
-  { "id": "s1", "name": "Cisco Routing & Switching", "category": "Network", "level": 5 },
-  { "id": "s2", "name": "Linux Admin (RHEL/Ubuntu)", "category": "Systems", "level": 4 },
-  { "id": "s3", "name": "Firewalls & IDS/IPS", "category": "Security", "level": 4 },
-  { "id": "s4", "name": "Python / Bash Scripting", "category": "Dev", "level": 4 },
-  { "id": "s5", "name": "AWS / Azure Cloud", "category": "Systems", "level": 3 },
-  { "id": "s6", "name": "Docker & Kubernetes", "category": "Systems", "level": 3 },
-  { "id": "s7", "name": "Wireshark / Packet Analysis", "category": "Network", "level": 5 },
-  { "id": "s8", "name": "SIEM / ELK Stack", "category": "Security", "level": 3 },
-  { "id": "s9", "name": "Terraform / IaC", "category": "Dev", "level": 3 },
-  { "id": "s10", "name": "Active Directory", "category": "Systems", "level": 4 }
+  { "id": "s1", "name": "Développement Frontend (HTML, CSS, JavaScript, React.js)", "category": "Dev", "level": 5 },
+  { "id": "s2", "name": "Développement Backend Java (Spring Boot)", "category": "Dev", "level": 4 },
+  { "id": "s3", "name": "Développement Backend JavaScript (Node.js, Express.js)", "category": "Dev", "level": 4 },
+  { "id": "s4", "name": "Bases de Données (MySQL, PostgreSQL, MongoDB)", "category": "Dev", "level": 4 },
+  { "id": "s5", "name": "Communication Temps Réel (Socket.IO)", "category": "Dev", "level": 3 },
+  { "id": "s6", "name": "Programmation & Scripting (Python, Bash)", "category": "Dev", "level": 4 },
+
+  { "id": "s7", "name": "Systèmes Linux (Ubuntu, Debian)", "category": "Systems", "level": 4 },
+  { "id": "s8", "name": "Virtualisation & Conteneurs (Docker)", "category": "Systems", "level": 3 },
+  { "id": "s9", "name": "Cloud Computing (AWS, Microsoft Azure)", "category": "Systems", "level": 3 },
+
+  { "id": "s10", "name": "Réseaux Informatiques (TCP/IP, Routage)", "category": "Network", "level": 4 },
+  { "id": "s11", "name": "Analyse & Diagnostic Réseau (Wireshark)", "category": "Network", "level": 4 },
+
+  { "id": "s12", "name": "Sécurité Applicative & Bonnes Pratiques", "category": "Security", "level": 3 }
 ]

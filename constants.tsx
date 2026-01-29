@@ -12,7 +12,5 @@ export const INITIAL_DATA: PortfolioData = {
   skills: [],
   projects: [],
   experience: [],
-  testimonials: [],
-  // Initialize certifications as an empty array
-  certifications: []
+  testimonials: []
 };

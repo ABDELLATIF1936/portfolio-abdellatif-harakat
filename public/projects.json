@@ -1,27 +1,68 @@
-
 [
   {
     "id": "p1",
-    "title": "Déploiement Réseau Cloud Hybride",
-    "description": "Conception et mise en œuvre d'un tunnel VPN sécurisé entre un datacenter local et un VPC AWS, utilisant BGP pour le routage dynamique et le basculement automatisé.",
-    "technologies": ["AWS", "Cisco CSR1000v", "BGP", "Terraform"],
+    "title": "Plateforme Web de Gestion des Check-lists HSE",
+    "description": "Projet de fin d’études de licence : conception et développement d’une plateforme web permettant la gestion, le suivi et l’automatisation des check-lists HSE. L’application repose sur une architecture MVC avec gestion des utilisateurs, des rôles et des rapports, intégrant des fonctionnalités pratiques et professionnelles.",
+    "technologies": ["Laravel", "PHP", "MySQL", "JavaScript", "HTML", "CSS"],
     "images": [
-      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?auto=format&fit=crop&q=80&w=800"
+      "https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800"
     ],
-    "githubUrl": "https://github.com/alexrivera/hybrid-cloud-net",
-    "liveUrl": "https://demo.example.com/network-viz"
+    "githubUrl": "https://github.com/ABDELLATIF1936/sefecheck-lists_HSE"
   },
   {
     "id": "p2",
-    "title": "Dashboard Système de Détection d'Intrusion",
-    "description": "Un tableau de bord de surveillance en temps réel pour les journaux IDS Snort, comprenant des alertes visuelles et des règles de blocage automatisées avec IPtables.",
-    "technologies": ["Python", "Flask", "Snort", "MySQL"],
+    "title": "Application Web Temps Réel (Chat Multi-Salles)",
+    "description": "Développement d’une application web de messagerie en temps réel permettant la communication instantanée entre utilisateurs via plusieurs salles de discussion. Le projet met en œuvre la communication bidirectionnelle et la gestion des connexions simultanées.",
+    "technologies": ["Node.js", "Express.js", "Socket.IO", "MongoDB"],
     "images": [
-      "https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&q=80&w=800",
-      "https://images.unsplash.com/photo-1563986768609-322da13575f3?auto=format&fit=crop&q=80&w=800"
+      "https://images.unsplash.com/photo-1556155092-490a1ba16284?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1526378722484-cc5c5100c53e?auto=format&fit=crop&q=80&w=800"
     ],
-    "githubUrl": "https://github.com/alexrivera/ids-monitor"
-  }
+    "githubUrl": "https://github.com/ton-github/realtime-chat-app"
+  },
+  {
+    "id": "p3",
+    "title": "Application Full Stack Java Spring Boot & React",
+    "description": "Conception d’une application Full Stack basée sur une API REST développée avec Spring Boot et une interface utilisateur moderne en React. Le projet inclut l’authentification, la gestion des données et l’interaction frontend-backend.",
+    "technologies": ["Spring Boot", "Java", "React.js", "REST API", "MySQL"],
+    "images": [
+      "https://images.unsplash.com/photo-1517433456452-f9633a875f6f?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1537432376769-00a3a3b9f9aa?auto=format&fit=crop&q=80&w=800"
+    ],
+    "githubUrl": "https://github.com/ton-github/spring-react-app"
+  },
+  {
+    "id": "p4",
+    "title": "Déploiement et Hébergement Cloud d’Applications Web",
+    "description": "Mise en place et déploiement d’applications web sur des plateformes cloud (AWS et Azure), incluant la configuration des services, la gestion des bases de données et les bonnes pratiques de sécurité et de disponibilité.",
+    "technologies": ["AWS", "Microsoft Azure", "Docker", "Linux"],
+    "images": [
+      "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&q=80&w=800",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc51?auto=format&fit=crop&q=80&w=800"
+    ]
+  },
+  {
+  "id": "p5",
+  "title": "AI Image & Audio Classification Platform",
+  "description": "Plateforme Full‑Stack de classification d’images et d’audio basée sur ResNet‑50, avec FastAPI pour le backend et HTML/CSS/JavaScript (Tailwind) pour le frontend. Déployable sur Docker et AWS EC2.",
+  "technologies": ["Python", "FastAPI", "PyTorch", "Transformers", "Librosa", "React.js", "Tailwind CSS", "Docker", "AWS EC2"],
+  "images": [
+    "https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&q=80&w=800",
+    "https://images.unsplash.com/photo-1581091215365-6c8d8572b152?auto=format&fit=crop&q=80&w=800"
+  ],
+  "githubUrl": "https://github.com/VOTRE_USERNAME/ai-classification-platform",
+  "liveUrl": null,
+  "features": [
+    "Classification d’images (Top‑5 prédictions)",
+    "Classification d’audio via spectrogramme",
+    "Backend FastAPI performant",
+    "Frontend moderne avec Tailwind CSS",
+    "Communication Frontend ↔ Backend via API REST",
+    "Orchestration Docker & Docker Compose",
+    "Déploiement Cloud sur AWS EC2"
+  ],
+  "authors": ["Abdellatif Harakat", "Jihane Tayef"]
+}
+
 ]

@@ -1,27 +1,26 @@
-
 [
   {
     "id": "edu1",
     "degree": "Master en Réseaux et Systèmes Informatiques",
-    "institution": "Université de Technologie de l'Innovation",
+    "institution": "FSTS - Université Hassan 1er",
     "period": "2025 - Présent",
     "courses": [
-      "Architecture Réseau Avancée",
-      "Systèmes Distribués",
-      "Optimisation des Infrastructures Cloud",
-      "Protocoles Cryptographiques"
+      "Réseaux avancés et administration système",
+      "Sécurité des systèmes et des réseaux",
+      "Virtualisation et Cloud Computing",
+      "Systèmes distribués"
     ]
   },
   {
     "id": "edu2",
-    "degree": "Licence en Informatique",
-    "institution": "École Nationale d'Ingénierie",
-    "period": "2020 - 2024",
+    "degree": "Licence en Génie Informatique",
+    "institution": "FSTS - Université Hassan 1er",
+    "period": "2022 - 2025",
     "courses": [
-      "Systèmes d'Exploitation",
-      "Réseaux TCP/IP",
-      "Gestion de Bases de Données",
-      "Structures de Données & Algorithmes"
+      "Programmation orientée objet",
+      "Bases de données et SQL",
+      "Développement Web et Mobile",
+      "Algorithmique et structures de données"
     ]
   }
 ]
