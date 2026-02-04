@@ -69,7 +69,7 @@ const ProjectsSection: React.FC<ProjectsSectionProps> = ({ projects }) => {
         <div className="flex flex-col md:flex-row justify-between items-end mb-24 gap-8">
           <div className="max-w-xl text-left">
             <div className="inline-block px-4 py-1.5 mb-6 glass rounded-full border border-blue-500/20">
-              <span className="text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]"></span>
+              
             </div>
             <h2 className="text-5xl md:text-7xl font-black mb-6 text-white tracking-tighter uppercase leading-none">
               Projets<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500 text-glow">Majeurs</span>

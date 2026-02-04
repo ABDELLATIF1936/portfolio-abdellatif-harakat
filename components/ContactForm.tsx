@@ -1,5 +1,5 @@
-
 import React, { useState } from 'react';
+import emailjs from '@emailjs/browser';
 
 interface ContactFormProps {
   email: string;
@@ -7,16 +7,32 @@ interface ContactFormProps {
 
 const ContactForm: React.FC<ContactFormProps> = ({ email }) => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
-  const [status, setStatus] = useState<'idle' | 'sending' | 'success'>('idle');
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setStatus('sending');
-    setTimeout(() => {
+
+    // Envoi via EmailJS
+    emailjs.send(
+      'service_54f7ioe', 
+      'template_e4picvh', 
+      {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message
+      },
+      'DAZgBhWmFQf_wifh5'     
+    )
+    .then(() => {
       setStatus('success');
       setFormData({ name: '', email: '', message: '' });
       setTimeout(() => setStatus('idle'), 3000);
-    }, 1500);
+    })
+    .catch(() => {
+      setStatus('error');
+      setTimeout(() => setStatus('idle'), 3000);
+    });
   };
 
   return (
@@ -24,7 +40,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ email }) => {
       <div>
         <h2 className="text-4xl font-bold mb-6">Restons Connectés</h2>
         <p className="text-gray-400 text-lg mb-8 leading-relaxed">
-          Que vous ayez une question sur mon travail, que vous souhaitiez discuter d'architectures réseaux ou simplement dire bonjour, n'hésitez pas.
+          Que vous ayez une question sur mon travail, que vous souhaitiez échanger autour de projets de développement ou simplement dire bonjour, n’hésitez pas à me contacter.
         </p>
         
         <div className="space-y-6">
@@ -47,7 +63,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ email }) => {
             required
             type="text"
             className="w-full bg-[#1F2937] border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-            placeholder="Jean Dupont"
+            placeholder="Harakat abdellatif"
             value={formData.name}
             onChange={e => setFormData({ ...formData, name: e.target.value })}
           />
@@ -58,7 +74,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ email }) => {
             required
             type="email"
             className="w-full bg-[#1F2937] border border-gray-700 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
-            placeholder="jean@exemple.com"
+            placeholder="abdellatifharakat50@gmail.com"
             value={formData.email}
             onChange={e => setFormData({ ...formData, email: e.target.value })}
           />
@@ -76,7 +92,7 @@ const ContactForm: React.FC<ContactFormProps> = ({ email }) => {
         </div>
         
         <button
-          disabled={status !== 'idle'}
+          disabled={status === 'sending'}
           type="submit"
           className="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 rounded-lg transition-all flex items-center justify-center space-x-2"
         >
@@ -89,7 +105,9 @@ const ContactForm: React.FC<ContactFormProps> = ({ email }) => {
               <span>Transmission en cours...</span>
             </>
           ) : status === 'success' ? (
-            <span>Paquet délivré avec succès !</span>
+            <span>Message envoyé avec succès !</span>
+          ) : status === 'error' ? (
+            <span>Erreur lors de l'envoi !</span>
           ) : (
             <span>Envoyer le Message</span>
           )}

@@ -73,7 +73,7 @@ const ExperienceSection: React.FC<ExperienceSectionProps> = ({ experience }) => 
         <div className="text-center mb-24">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 mb-6">
             <div className="w-2 h-2 bg-blue-500 rounded-full animate-ping" />
-            <span className="text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]">Operational History</span>
+            <span className="text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]"></span>
           </div>
           <h2 className="text-5xl md:text-6xl font-black mb-8 text-white tracking-tighter uppercase leading-none">
             Work &<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500 text-glow">Research</span>

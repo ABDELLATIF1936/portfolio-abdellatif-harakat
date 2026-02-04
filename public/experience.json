@@ -1,14 +1,30 @@
-
 [
   {
     "id": "exp1",
-    "role": "Stagiaire Ingénieur Réseau",
-    "company": "Global Connect Solutions",
-    "period": "Été 2023",
+    "role": "Stagiaire Ingénieur Informatique",
+    "company": "Groupe OCP – Site d’El Jadida",
+    "period": "Avril 2025 – juin 2025",
     "description": [
-      "Contribution à la migration de l'infrastructure héritée IPv4 vers une pile double IPv4/IPv6.",
-      "Surveillance des performances réseau via Zabbix et Grafana.",
-      "Configuration et déploiement de plus de 50 commutateurs de classe entreprise."
+      "Conception et développement de la plateforme web « SefeCheck » dédiée à la gestion des checklists HSE.",
+      "Analyse des besoins métiers et modélisation du système .",
+      "Implémentation d’une architecture MVC avec Laravel et MySQL.",
+      "Développement des interfaces administrateur et utilisateur avec une attention particulière à l’UX/UI.",
+      "Mise en place des fonctionnalités de suivi, validation et historisation des checklists.",
+      "Tests fonctionnels et amélioration continue de la plateforme en collaboration avec l’équipe informatique."
     ]
-  }
+  },
+{
+  "id": "exp2",
+  "role": "Président – Community Innovatech",
+  "company": "Innovatech Community",
+  "period": "2025 – Présent",
+  "description": [
+    "Pilotage et coordination des activités de la communauté Innovatech axée sur l’innovation technologique et le numérique.",
+    "Organisation d’événements, d’ateliers techniques et de sessions de formation autour du développement web et des nouvelles technologies.",
+    "Encadrement et motivation des membres, avec répartition des rôles et suivi des projets collaboratifs.",
+    "Contribution active à des projets technologiques en équipe et promotion de la culture de l’innovation.",
+    "Développement de compétences en leadership, gestion d’équipe, communication et prise de décision."
+  ]
+}
+
 ]

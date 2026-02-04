@@ -1,0 +1,19 @@
+
+[
+  {
+    "id": "t1",
+    "name": "Tayef Jihane",
+    "role": "Collégue de projet",
+    "content": "La collaboration a été efficace. De bonnes compétences en Cloud et Docker ont été démontrées, avec un travail sérieux, autonome et professionnel, apportant une réelle valeur ajoutée au projet.",
+    "institution": "Fsts Université Hassan 1er",
+    "projectContext": "DÉPLOIEMENT D’ARCHITECTURES DEEP LEARNING DANS DES CONTENEURS DOCKER Et  CLOUD COMPUTING SERVICES"
+  },
+  {
+    "id": "t2",
+    "name": "Benjelloun mohamed larbi",
+    "role": "Collégue de projet",
+    "content": "La collaboration s’est déroulée de manière fluide et constructive. La personne a démontré de solides compétences techniques, une bonne capacité d’analyse et un réel sens du professionnalisme",
+    "institution": "Fsts Université Hassan 1er",
+    "projectContext": "Projet : Assistant de recherche "
+  }
+]

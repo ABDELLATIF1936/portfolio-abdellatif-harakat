@@ -75,13 +75,13 @@ const TestimonialsSection: React.FC<TestimonialsSectionProps> = ({ testimonials 
       <Reveal>
         <div className="text-center mb-24">
           <div className="inline-flex items-center space-x-2 px-3 py-1 rounded-full bg-blue-500/10 border border-blue-500/20 mb-6">
-            <span className="text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]">Endorsements</span>
+            <span className="text-blue-400 text-[10px] font-black uppercase tracking-[0.2em]"></span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black mb-8 text-white tracking-tighter uppercase leading-none">
             Peer & Academic<br/><span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-indigo-500 text-glow">Validation</span>
           </h2>
           <p className="text-slate-500 text-lg max-w-2xl mx-auto font-medium">
-            Témoignages de collaborateurs, pairs et mentors avec qui j'ai eu le privilège de bâtir des infrastructures.
+            Témoignages de collaborateurs, pairs et mentors issus de projets académiques et techniques.
           </p>
         </div>
       </Reveal>
