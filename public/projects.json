@@ -1,5 +1,52 @@
 [
   {
+  "id": "p6",
+  "title": "MoroccoFan2030 – Smart Fan Experience Platform",
+  "description": "Médaille d'Or — 2026 Belt & Road BRICS Competition of Skills Development & Technology Innovation\nPlateforme digitale complète web & mobile conçue pour améliorer l’expérience des supporters lors de la Coupe du Monde 2030 au Maroc. L’application propose la gestion des matchs, groupes, trajets entre villes hôtes, hôtels, attractions touristiques, guides locaux et profils fans personnalisés avec recommandations intelligentes.",
+  "technologies": [
+    "React.js",
+    "Next.js",
+    "Flutter",
+    "Spring Boot",
+    "REST API",
+    "JWT Authentication",
+    "PostgreSQL",
+    "MongoDB",
+    "Python",
+    "GitHub Actions",
+    "SonarQube",
+    "Vercel"
+  ],
+  "images": [
+    "images/moroccofan1.png",
+    "images/moroccofan2.png",
+    "images/moroccofan3.png"
+  ],
+  "githubUrl": "https://github.com/anas-gn/morrocoFan30",
+  "liveUrl": "https://morroco-fan30-lntb.vercel.app",
+  "features": [
+    "Recherche de trajets entre les villes hôtes du Maroc",
+    "Calendrier des matchs et résultats en direct",
+    "Classements et statistiques des groupes",
+    "Carte interactive avec stades, hôtels et attractions",
+    "Gestion des hôtels et liens de réservation",
+    "Découverte des monuments et sites touristiques",
+    "Système de guides locaux multilingues",
+    "Profils fans personnalisés avec favoris et prédictions",
+    "Notifications push et recommandations intelligentes",
+    "Architecture CI/CD avec GitHub Actions",
+    "Analyse qualité et sécurité avec SonarQube",
+    "Déploiement continu sur Vercel"
+  ],
+  "authors": [
+    "Abdellatif Harakat",
+    "Bahaa-eddine Lamrissi",
+    "Tayef Jihane",
+    "Salma ID MHAND"
+  ],
+  "achievement": "🥇 Médaille d'Or — 2026 Belt & Road BRICS Competition of Skills Development & Technology Innovation"
+},
+  {
     "id": "p1",
     "title": "Plateforme Web de Gestion des Check-lists HSE",
     "description": "Projet de fin d’études de licence : conception et développement d’une plateforme web permettant la gestion, le suivi et l’automatisation des check-lists HSE. L’application repose sur une architecture MVC avec gestion des utilisateurs, des rôles et des rapports, intégrant des fonctionnalités pratiques et professionnelles.",
